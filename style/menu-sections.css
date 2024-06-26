@@ -78,7 +78,7 @@
     background-color: var(--BACKROUND_DARK);
     color: var(--TEXT_PRIMARY_COLOR);
     font-size: 1.3rem;
-    padding: 2% 4%;
+    padding: 2% 6%;
     text-align: center;
     opacity: var(--OPACITY);
     width: 75%;
@@ -89,7 +89,7 @@
     background-color: var(--BACKROUND_DARK);
     color: var(--TEXT_PRIMARY_COLOR);
     font-size: 1.3rem;
-    padding: 2% 4%;
+    padding: 2% 6%;
     text-align: center;
     opacity: var(--OPACITY);
     width: 75%;
