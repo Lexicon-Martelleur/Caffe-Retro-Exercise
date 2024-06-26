@@ -29,12 +29,6 @@
     background-image: url("../assets/hot.jpg");
 }
 
-#hot:target ~ .menuSection.default,
-#juicy:target ~ .menuSection.default,
-#cosy:target ~ .menuSection.default {
-    display: none;
-}
-
 .menuSection.default {
     display: flex;
 }
@@ -90,4 +84,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;   
+}
+
+@media (max-width: 640px) {
+    .menuSection {
+        display: flex;
+        border-bottom: 10px solid var(--TEXT_ACCENT_COLOR);
+    }
+
+    .menuSection.default {
+        display: none;
+    }
+    
+    .menuSection__ingredients {
+        width: 96%;   
+    }
 }

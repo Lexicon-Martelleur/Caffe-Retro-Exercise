@@ -34,3 +34,19 @@ html, body, main {
     font-family: var(--FONT-STYLE-SECONDARY);
     color: var(--TEXT_PRIMARY_COLOR);
 }
+
+@media (max-width: 1000px) {
+    .mainNav {
+        padding: 0 20%;
+    }
+}
+
+@media (max-width: 640px) {
+    .mainNav {
+        padding: 0 10%;
+    }
+
+    .mainNav__link {
+        font-size: 2rem;
+    }
+}
