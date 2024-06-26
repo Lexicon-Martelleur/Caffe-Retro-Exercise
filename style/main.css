@@ -3,6 +3,8 @@
 html, body, main {
     height: 100%;
     margin: 0;
+    font-family: var(--FONT-STYLE-PRIMARY);
+    font-size: 1.1rem;
 }
 
 .header {
@@ -14,8 +16,7 @@ html, body, main {
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color: var(--BACKROUND_LIGHT);
-    opacity: 0.8;
+    background-color: var(--BACKROUND_LIGHT_T);
     margin-top: 1rem;
     z-index: 1000;
 }
@@ -29,6 +30,7 @@ html, body, main {
 
 .mainNav__link {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.6rem;
+    font-family: var(--FONT-STYLE-SECONDARY);
     color: var(--TEXT_PRIMARY_COLOR);
 }

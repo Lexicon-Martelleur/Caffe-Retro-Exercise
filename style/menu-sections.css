@@ -46,23 +46,24 @@
 #hot:target ~ .menuSection.default,
 #juicy:target ~ .menuSection.default,
 #cosy:target ~ .menuSection.default {
-    display: flex;
+    display: none;
 }
 
 .menuSection__title {
     color: var(--TEXT_ACCENT_COLOR);
-    font-size: 5rem;
+    font-size: 6rem;
+    font-family: var(--FONT-STYLE-SECONDARY);
+    font-weight: bolder;
     margin: 0;
 
 }
 
 .menuSection__description {
-    background-color: var(--BACKROUND_ACCENT);
+    background-color: var(--BACKROUND_ACCENT_T);
     color: var(--TEXT_PRIMARY_COLOR);
     font-size: 1.3rem;
     padding: 2% 4%;
     text-align: center;
-    opacity: var(--OPACITY);
     width: 75%;
 }
 
@@ -75,23 +76,11 @@
 }
 
 .menuSection__ingredients {
-    background-color: var(--BACKROUND_DARK);
+    background-color: var(--BACKROUND_DARK_T);
     color: var(--TEXT_PRIMARY_COLOR);
     font-size: 1.3rem;
     padding: 2% 6%;
     text-align: center;
-    opacity: var(--OPACITY);
-    width: 75%;
-    list-style: none;   
-}
-
-.menuSection__ingredients {
-    background-color: var(--BACKROUND_DARK);
-    color: var(--TEXT_PRIMARY_COLOR);
-    font-size: 1.3rem;
-    padding: 2% 6%;
-    text-align: center;
-    opacity: var(--OPACITY);
     width: 75%;
     list-style: none;   
 }

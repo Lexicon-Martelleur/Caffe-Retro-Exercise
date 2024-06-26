@@ -1,10 +1,12 @@
 :root {
-    --BACKROUND_ACCENT: #8D0001;
-    --BACKROUND_LIGHT: #281D22;
-    --BACKROUND_DARK: #000;
+    --BACKROUND_ACCENT_T: rgb(141, 0, 1, 0.8);
+    --BACKROUND_LIGHT_T: rgba(44, 28, 35, 0.8);
+    --BACKROUND_DARK_T: rgba(0, 0, 0, 0.7);
 
     --TEXT_PRIMARY_COLOR: #FFF;
     --TEXT_ACCENT_COLOR: #8D0001;
 
-    --OPACITY: 0.8
+    --FONT-STYLE-PRIMARY: "Poiret One", sans-serif;;
+    --FONT-STYLE-SECONDARY: "Spirax", system-ui;
 }
+
