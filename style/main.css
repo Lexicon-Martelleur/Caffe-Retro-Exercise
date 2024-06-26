@@ -1,0 +1,34 @@
+@import url("./global.css");
+
+html, body, main {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: var(--BACKROUND_LIGHT);
+    opacity: 0.8;
+    margin-top: 1rem;
+    z-index: 1000;
+}
+
+.mainNav {
+    display: flex;
+    width: 100%;
+    padding: 0 30%;
+    justify-content: space-between;
+}
+
+.mainNav__link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--TEXT_PRIMARY_COLOR);
+}
