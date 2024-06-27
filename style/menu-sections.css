@@ -1,4 +1,5 @@
 .menuSection {
+    box-sizing: content-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,7 +75,16 @@
 }
 
 @media (max-width: 640px) { 
+    .menuSection__description.shiftRight {
+        display: none;
+    }
+
     .menuSection__ingredients {
         width: 96%;   
+    }
+
+    .menuSection__description.shiftLeft {
+        margin: 0;
+        width: 96%;
     }
 }
