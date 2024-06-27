@@ -37,7 +37,6 @@
     font-family: var(--FONT-STYLE-SECONDARY);
     font-weight: bolder;
     margin: 0;
-
 }
 
 .menuSection__description {
@@ -74,7 +73,11 @@
     justify-content: space-between;   
 }
 
-@media (max-width: 640px) { 
+@media (max-width: 640px) or (max-height: 640px) { 
+    .menuSection {
+        gap: 0;
+    }
+    
     .menuSection__description.shiftRight {
         display: none;
     }
@@ -86,5 +89,11 @@
     .menuSection__description.shiftLeft {
         margin: 0;
         width: 96%;
+    }
+}
+
+@media (max-height: 540px) { 
+    .menuSection__title {
+        visibility: hidden;
     }
 }
