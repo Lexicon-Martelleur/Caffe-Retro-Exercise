@@ -35,7 +35,7 @@
     color: var(--TEXT_ACCENT_COLOR);
     font-size: 7rem;
     font-family: var(--FONT-STYLE-SECONDARY);
-    font-weight: 1000;
+    font-weight: bolder;
     margin: 0;
 }
 
